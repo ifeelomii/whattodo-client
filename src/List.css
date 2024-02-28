@@ -1,0 +1,49 @@
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-elem {
+  position: fixed;
+  top: 12%;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.input-elem input {
+  border: 3px solid rgba(94, 207, 235, 0.872);
+  border-radius: 50px;
+  min-width: 40rem;
+  min-height: 3rem;
+  padding: 0 15px;
+}
+.input-elem button {
+  margin-left: 10px;
+  border-radius: 25px;
+  width: 6rem;
+  min-height: 3.2rem;
+}
+
+table {
+  position: fixed;
+  left: 23%;
+  top: 25%;
+}
+table > thead > tr > th {
+  padding: 5px 35px;
+  border: 2px outset black;
+}
+table > tbody > tr > td {
+  padding: 5px 35px;
+  border: 2px outset black;
+}
+table > thead > tr > th:nth-child(2) {
+  min-width: 400px;
+}
+
+.strike{
+  /* transition: linear 7s ease-out; */
+  text-decoration: line-through;
+}
