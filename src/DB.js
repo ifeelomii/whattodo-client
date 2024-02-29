@@ -5,13 +5,8 @@ class DB {
     return axios.get(baseUrl);
   }
   addInList(activity) {
-    return axios.post(baseUrl + activity);
-  }
-  updateFromList(activity) {
-    return axios.put(baseUrl + activity.id, activity);
-  }
-  removeFromList(id) {
-    return axios.delete(baseUrl + id);
+    // console.log(activity)
+    return axios.post(baseUrl, activity);
   }
 }
 

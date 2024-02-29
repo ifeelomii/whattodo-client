@@ -1,4 +1,10 @@
-.list-container {
+.list-outer-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-inner-container{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +18,9 @@
   align-items: center;
 }
 
-.input-elem input {
+.input-elem form input {
+  align-self:center ;
+  justify-self: center;
   border: 3px solid rgba(94, 207, 235, 0.872);
   border-radius: 50px;
   min-width: 40rem;
@@ -28,7 +36,7 @@
 
 table {
   position: fixed;
-  left: 23%;
+  left: 25%;
   top: 25%;
 }
 table > thead > tr > th {
@@ -44,6 +52,6 @@ table > thead > tr > th:nth-child(2) {
 }
 
 .strike{
-  /* transition: linear 7s ease-out; */
+  color: gray;
   text-decoration: line-through;
 }
